@@ -1,3 +1,81 @@
+/* Change the background color of the page */
 body {
-    background-color: #90AFC5;
+    background-color: #C4DFE6;
+}
+
+/*  */
+#topic{
+    color: #003B46;
+}
+
+/*  */
+header {
+    position: static;
+    border-style: solid;
+    border-color: #003B46;
+    border-width: 4px;
+    border-radius: 5px;
+}
+
+#navigater{
+    position: sticky;
+    top: 20px;
+}
+
+/*  */
+#navigater-item {
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+    border-radius: 0.2cm;
+    background-color: #003B46;
+    color: lightgrey;
+}
+
+/*  */
+#navigater-item:hover {
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+    border-radius: 0.2cm;
+    background-color: #003B46;
+    color: rgb(41, 192, 86);
+}
+
+#navigater-item:active {
+    box-sizing: border-box;
+    border: 2px solid darkcyan;
+    border-radius: 0.2cm;
+    background-color: #00cff3;
+    color: rgb(41, 192, 86);
+}
+
+/*  */
+#navigater{
+    
+    margin-top: 1vmin;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-bottom: 15pt;
+    box-sizing: border-box;
+    border: 5px solid #003B46;
+    border-radius: 5px;
+    background-color: #66A5AD;
+    color: lightgrey;
+}
+
+/*  */
+#navigater li {
+    padding-top: 10px;
+}
+
+section h2 {
+    color: #003B46;
+}
+
+#content {
+    color: rgb(5, 59, 61);
+}
+
+.survey {
+    color: hsl(0, 0, 0);
+    margin: 5vh 3vw 5vh 3vw;
 }
