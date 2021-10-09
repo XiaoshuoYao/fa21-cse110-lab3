@@ -10,7 +10,7 @@ body {
     display: grid;
 }
 
-/*  */
+/* grid item h1 */
 #topic > h1 {
     grid-column-start: 1;
     grid-column-end: four;
@@ -18,7 +18,7 @@ body {
     grid-row-end: 1;
 }
 
-/*  */
+/* grid item h2 */
 #topic > h2 {
     grid-column-start: 1;
     grid-column-end: five;
@@ -26,7 +26,7 @@ body {
     grid-row-end: span 2;
 }
 
-/*  */
+/* grid item h3 */
 #topic > h3 {
     grid-column-start: 2;
     grid-column-end: four;
@@ -34,7 +34,7 @@ body {
     grid-row-end: span 2;
 }
 
-/*  */
+/* style for header */
 header {
     position: static;
     border-style: solid;
@@ -43,13 +43,13 @@ header {
     border-radius: 5px;
 }
 
-/*  */
+/* make the navigator sticky */
 #navigater{
     position: sticky;
     top: 20px;
 }
 
-/*  */
+/* style for items in navigator */
 #navigater-item {
     box-sizing: border-box;
     border: 2px solid darkcyan;
@@ -58,7 +58,7 @@ header {
     color: lightgrey;
 }
 
-/*  */
+/* style for hover on items in navigator */
 #navigater-item:hover {
     box-sizing: border-box;
     border: 2px solid darkcyan;
@@ -67,7 +67,7 @@ header {
     color: rgb(41, 192, 86);
 }
 
-/*  */
+/* style for click items in navigator */
 #navigater-item:active {
     box-sizing: border-box;
     border: 2px solid darkcyan;
@@ -76,7 +76,7 @@ header {
     color: rgb(41, 192, 86);
 }
 
-/*  */
+/* style for navigator */
 #navigater{
     margin-top: 1vmin;
     margin-left:1%;
@@ -90,7 +90,7 @@ header {
     color: lightgrey;
 }
 
-/*  */
+/* padding for items in navigator */
 #navigater li {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -98,7 +98,7 @@ header {
     padding-right: 1px;
 }
 
-/*  */
+/* style for section topics */
 section h2 {
     position:relative; 
     left:20%; 
@@ -108,7 +108,7 @@ section h2 {
     color: #003B46;
 }
 
-/*  */
+/* style for content */
 #content {
     position:relative; 
     left:30%; 
@@ -117,13 +117,13 @@ section h2 {
     color: rgb(5, 59, 61);
 }
 
-/*  */
+/* color and position of survey */
 .survey {
     color: hsl(0, 0, 0);
     margin: 5vh 3vw 5vh 3vw;
 }
 
-/*  */
+/* position of image, video and audio */
 audio, video, img{
     position:relative; 
     left:25%; 
@@ -131,12 +131,12 @@ audio, video, img{
     margin: auto;
 }
 
-/*  */
+/* setting font */
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*  */
+/* style for content in attendance list */
 #attendance > #content{
     position:relative; 
     left:40%; 
@@ -145,7 +145,7 @@ audio, video, img{
     color: rgb(5, 59, 61);
 }
 
-/*  */
+/* style for content in agenda */
 #agenda ~ #content{
     position:relative; 
     left:40%; 
@@ -154,7 +154,7 @@ audio, video, img{
     color: rgb(5, 59, 61);
 }
 
-/*  */
+/* style for content in miscellaneous list */
 #miscellaneous ~ #content{
     position:relative; 
     left:30%; 
@@ -163,7 +163,7 @@ audio, video, img{
     color: rgb(5, 59, 61);
 }
 
-/*  */
+/* border for survey */
 div.survey{
     border-top-width: 2px;
     border-top-style: solid;
@@ -180,26 +180,26 @@ div.survey{
     text-align: center;
 }
 
-/*  */
+/* padding for database section in survey */
 #db{
     padding: 5px 1px 5px 1px;
 }
 
-/*  */
+/* background color change when screen width decreases bellow 960px */
 @media only screen and (max-width: 960px){
     body {
         background-color: white;
     }
 }
 
-/*  */
+/* background color change when screen width exceeds 960px */
 @media only screen and (min-width: 960px){
     body {
         background-color: #C4DFE6;
     }
 }
 
-/*  */
+/* flexbox layout for survey */
 .survey{
     display: flex;
     flex-flow: row wrap;
@@ -210,7 +210,7 @@ div.survey{
     list-style: none;
 }
 
-/*  */
+/* style for items in survey */
 .item{
     background: #66A5AD;
     padding: 5px;
@@ -221,6 +221,7 @@ div.survey{
     text-align: center;
 }
 
+/* change color of the link to my github page */
 a[target]{
     color:teal;
 }
